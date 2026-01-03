@@ -1,6 +1,6 @@
 # presence-event-emitter
 
-Embedded device emitting presence events (check-in / check-out) to a central backend.
+Embedded hardware device that emits presence events (check-in / check-out) to a central backend.
 No local storage. No local timestamps.
 
 ## Scope
