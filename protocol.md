@@ -14,3 +14,6 @@ It does not define business logic, validation rules or data interpretation.
 The protocol is designed to be simple and stable over time.
 Backward compatibility is preferred over feature expansion.
 
+## Versioning
+The protocol version is implicit and changes only when backward compatibility cannot be preserved.
+Minor clarifications and documentation updates do not constitute a protocol change.
