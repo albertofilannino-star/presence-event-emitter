@@ -3,6 +3,8 @@
 Embedded hardware device that emits presence events (check-in / check-out) to a central backend.
 No local storage. No local timestamps.
 
+![Embedded presence event device](device.png)
+
 ## Scope
 This component only emits raw presence events.
 All interpretation and persistence is delegated to external systems.
