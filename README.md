@@ -24,3 +24,8 @@ The backend is responsible for:
 - assigning the authoritative timestamp
 - validating the event
 - persisting or discarding it according to system rules
+
+## Failure scenarios
+- If network connectivity is unavailable, the event is not buffered.
+- No local retry or persistence is performed.
+- Event loss in case of network failure is an accepted design trade-off.
